@@ -1,0 +1,17 @@
+# Laravel UI Assessment
+
+This project replicates the provided UI using Laravel + Bootstrap + internal CSS.
+
+## Features
+- Responsive layout
+- Expand/collapse detail rows
+- Internal CSS for custom styling
+
+## Setup
+```bash
+composer install
+npm install
+cp .env.example .env
+php artisan key:generate
+php artisan serve
+npm run dev
